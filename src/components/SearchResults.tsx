@@ -1,4 +1,4 @@
-import { SearchResult } from '../types/index.ts';
+import type { SearchResult } from '../types';
 
 interface SearchResultsProps {
   results: SearchResult[];

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
-import { SearchResult } from '../types/index.ts';
+import type { SearchResult } from '../types';
 
 interface SearchFormProps {
   onResults: (results: SearchResult[]) => void;
