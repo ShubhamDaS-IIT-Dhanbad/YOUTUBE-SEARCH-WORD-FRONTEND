@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import SearchForm from './components/SearchForm';
 import SearchResults from './components/SearchResults';
-import type { SearchResult } from './types';
+import type { SearchResult } from './types/index';
 
 function App() {
   const [results, setResults] = useState<SearchResult[]>([]);

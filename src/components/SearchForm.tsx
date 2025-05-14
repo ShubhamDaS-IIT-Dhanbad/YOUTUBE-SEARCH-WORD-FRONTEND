@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
-import type { SearchResult } from '../types';
+import type { SearchResult } from '../types/index';
+
 
 interface SearchFormProps {
   onResults: (results: SearchResult[]) => void;
